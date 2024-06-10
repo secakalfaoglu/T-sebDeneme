@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const cards = document.querySelectorAll(".card");
-    const cardsPerPage = 6;
+    const cardsPerPage = 9;
     const pagination = document.getElementById("pagination");
     const miniPagination = document.getElementById("mini-pagination");
     const totalCards = cards.length;

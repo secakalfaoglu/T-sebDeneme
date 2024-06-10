@@ -4,14 +4,19 @@
     padding: 0 5%;
     /* Small ekran boyutuna özel padding değeri */
   }
+  #ust-yonetim .container-fluid {
+    padding: 0 5%;
+  }
   #ust-yonetim .list-group-item {
     display: flex;
     flex-direction: column;
-    align-items: center; /* İsteğe bağlı: İçeriği ortalamak için */
+    align-items: center;
+    /* İsteğe bağlı: İçeriği ortalamak için */
     margin-bottom: 2rem;
   }
   #ust-yonetim .list-group-item .flex-grow-1 {
-    text-align: center; /* İsteğe bağlı: Metni ortalamak için */
+    text-align: center;
+    /* İsteğe bağlı: Metni ortalamak için */
     margin-bottom: 2rem;
   }
   .index-body #haberler .card {
@@ -60,6 +65,27 @@
     gap: 2px !important;
   }
   .haberler-body #pagination .page-link {
+    font-size: 12px;
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay .card {
+    flex: 0 0 99% !important;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 15rem;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 12rem;
+  }
+  .tum-slider-body #pagination {
+    gap: 2px !important;
+  }
+  .tum-slider-body #pagination .page-link {
     font-size: 12px;
   }
   .basin-body #basin-card {
@@ -130,6 +156,15 @@
   #arama-sonuc #arama-sonuc-detay .desc .arama-p {
     -webkit-line-clamp: 2 !important;
   }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #tum-duyurular #tum-duyurular-detay .title {
+    -webkit-line-clamp: 2 !important;
+  }
+  #tum-duyurular #tum-duyurular-detay .arama-p {
+    -webkit-line-clamp: 2 !important;
+  }
   #footer {
     padding: 5%;
   }
@@ -195,6 +230,12 @@
   #haber-detay-body #haber-detay {
     padding: 0 5%;
   }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay .card {
+    flex: 0 0 48% !important;
+  }
   #yonetmelikler .row {
     margin-top: 40px;
   }
@@ -243,6 +284,27 @@
   }
   #arama-sonuc #arama-sonuc-detay .desc .arama-p {
     -webkit-line-clamp: 2 !important;
+  }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #tum-duyurular #tum-duyurular-detay .title {
+    -webkit-line-clamp: 2 !important;
+  }
+  #tum-duyurular #tum-duyurular-detay .arama-p {
+    -webkit-line-clamp: 2 !important;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 15rem;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 12rem;
   }
   #footer {
     padding: 0 5%;
@@ -296,6 +358,25 @@
   .haberler-body #haberler-card .card {
     flex: 0 0 48%;
   }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay .card {
+    flex: 0 0 48% !important;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 15rem;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 10rem;
+  }
+  .tum-slider-body #tum-slider-card .card {
+    flex: 0 0 49%;
+    /* Kart genişliğini ayarlar */
+  }
   .basin-body #basin-card {
     padding: 0 5%;
   }
@@ -341,6 +422,18 @@
   #arama-sonuc #arama-sonuc-detay .desc .arama-p {
     -webkit-line-clamp: 2 !important;
   }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #tum-duyurular #tum-duyurular-detay .title {
+    -webkit-line-clamp: 2 !important;
+  }
+  #tum-duyurular #tum-duyurular-detay .arama-p {
+    -webkit-line-clamp: 2 !important;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 5%;
+  }
   #footer {
     padding: 0 5%;
   }
@@ -385,6 +478,34 @@
     flex: 0 0 32%;
     /* Orta boyutlu ekranlar için genişlik ayarı */
   }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay .card {
+    flex: 0 0 48% !important;
+  }
+  #roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+    padding: 0 5%;
+  }
+  #akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+    padding: 0 5%;
+  }
+  #tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 12rem;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 12rem;
+  }
+  .tum-slider-body #tum-slider-card .card {
+    flex: 0 0 32%;
+    /* Kart genişliğini ayarlar */
+  }
   .basin-body #basin-card {
     padding: 0 5%;
   }
@@ -438,6 +559,15 @@
     text-align: center;
   }
   #arama-sonuc #arama-sonuc-detay {
+    padding: 0 5%;
+  }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 5%;
+  }
+  #mali-duyurular #mali-duyurular-detay {
     padding: 0 5%;
   }
   #footer {
@@ -480,6 +610,32 @@
     flex: 0 0 32%;
     /* Kart genişliğini ayarlar */
   }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+    padding: 0 5%;
+  }
+  #akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+    padding: 0 5%;
+  }
+  #tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 250px;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 160px;
+  }
+  .tum-slider-body #tum-slider-card .card {
+    height: 455px;
+    flex: 0 0 32%;
+    /* Kart genişliğini ayarlar */
+  }
   .basin-body #basin-card {
     padding: 0 5%;
   }
@@ -533,7 +689,16 @@
   #arama-sonuc #arama-sonuc-detay {
     padding: 0 5%;
   }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 5%;
+  }
   #footer {
+    padding: 0 5%;
+  }
+  #mali-duyurular #mali-duyurular-detay {
     padding: 0 5%;
   }
 }
@@ -569,6 +734,32 @@
     height: 160px;
   }
   .haberler-body #haberler-card .card {
+    height: 455px;
+    flex: 0 0 32%;
+    /* Kart genişliğini ayarlar */
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 5%;
+  }
+  #roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+    padding: 0 5%;
+  }
+  #akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+    padding: 0 5%;
+  }
+  #tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 5%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 250px;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 160px;
+  }
+  .tum-slider-body #tum-slider-card .card {
     height: 455px;
     flex: 0 0 32%;
     /* Kart genişliğini ayarlar */
@@ -620,6 +811,15 @@
   #arama-sonuc #arama-sonuc-detay {
     padding: 0 5%;
   }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 5%;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 15%;
+  }
+  #mali-duyurular #mali-duyurular-detay {
+    padding: 0 5%;
+  }
   #footer {
     padding: 0 5%;
   }
@@ -658,6 +858,32 @@
     height: 160px;
   }
   .haberler-body #haberler-card .card {
+    height: 455px;
+    flex: 0 0 32%;
+    /* Kart genişliğini ayarlar */
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 15%;
+  }
+  #roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+    padding: 0 15%;
+  }
+  #akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+    padding: 0 15%;
+  }
+  #tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+    padding: 0 15%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 15%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 250px;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 160px;
+  }
+  .tum-slider-body #tum-slider-card .card {
     height: 455px;
     flex: 0 0 32%;
     /* Kart genişliğini ayarlar */
@@ -709,6 +935,15 @@
   #arama-sonuc #arama-sonuc-detay {
     padding: 0 15%;
   }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 15%;
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 15%;
+  }
+  #mali-duyurular #mali-duyurular-detay {
+    padding: 0 15%;
+  }
   #footer {
     padding: 0 15%;
   }
@@ -750,6 +985,18 @@
     height: 455px;
     flex: 0 0 32%;
     /* Kart genişliğini ayarlar */
+  }
+  #baskan-fotograflari #baskan-fotograflari-detay {
+    padding: 0 17%;
+  }
+  #roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+    padding: 0 17%;
+  }
+  #akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+    padding: 0 17%;
+  }
+  #tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+    padding: 0 17%;
   }
   .basin-body #basin-card {
     padding: 0 17%;
@@ -796,6 +1043,29 @@
     text-align: center;
   }
   #arama-sonuc #arama-sonuc-detay {
+    padding: 0 17%;
+  }
+  #tum-duyurular #tum-duyurular-detay {
+    padding: 0 17%;
+  }
+  .tum-slider-body #tum-slider-card {
+    padding: 0 17%;
+  }
+  .tum-slider-body #tum-slider-card .card-img-top {
+    height: 250px;
+  }
+  .tum-slider-body #tum-slider-card .card-body {
+    height: 160px;
+  }
+  .tum-slider-body #tum-slider-card .card {
+    height: 455px;
+    flex: 0 0 32%;
+    /* Kart genişliğini ayarlar */
+  }
+  #ust-yonetim .container-fluid {
+    padding: 0 17%;
+  }
+  #mali-duyurular #mali-duyurular-detay {
     padding: 0 17%;
   }
   #footer {
@@ -1033,6 +1303,9 @@
   height: 35px;
   cursor: pointer;
 }
+.navbarBottom button .fa-bars {
+  color: #112958;
+}
 .navbarBottom .offcanvas {
   background-color: #f3faff;
 }
@@ -1048,6 +1321,14 @@
 }
 .navbarBottom .offcanvas .offcanvas-body #offcanvas-body-list {
   margin-top: 1em;
+  /* İkonun varsayılan hali */
+  /* Dropdown menü açıkken ikonun döneceği hali */
+}
+.navbarBottom .offcanvas .offcanvas-body #offcanvas-body-list .fa-caret-down {
+  transition: transform 0.3s ease;
+}
+.navbarBottom .offcanvas .offcanvas-body #offcanvas-body-list .nav-item.dropdown.show .fa-caret-down {
+  transform: rotate(180deg);
 }
 .navbarBottom .offcanvas .offcanvas-body form button {
   background-color: #112958;
@@ -1066,6 +1347,13 @@
   border: none;
   margin-left: 10px;
   margin-top: 0;
+  /* Dropdown menü açıkken ikonun döneceği hali */
+}
+.navbarBottom .offcanvas .submenu .fa-caret-down {
+  transition: transform 0.3s ease;
+}
+.navbarBottom .offcanvas .submenu .dropdown-toggle[aria-expanded=true] .fa-caret-down {
+  transform: rotate(180deg);
 }
 
 #footer {
@@ -1696,9 +1984,12 @@
   /* Yatayda ortalamak için */
 }
 #yonetmelikler #yonetmelikler-detay .container {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 50px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#yonetmelikler #yonetmelikler-detay .container .list-group {
+  padding: 5%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 }
 #yonetmelikler #yonetmelikler-detay img {
   max-width: 100%;
@@ -1870,7 +2161,7 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-#arama-sonuc #arama-sonuc-detay .desc .arama-p {
+#arama-sonuc #arama-sonuc-detay .arama-p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -2195,14 +2486,18 @@
   /* Yatayda ortalamak için */
 }
 #yonetim-kurulu #yonetim-kurulu-detay {
-  margin-top: 4em;
+  margin-top: 2em;
   margin-bottom: 7em;
 }
 #yonetim-kurulu #yonetim-kurulu-detay .content-details {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 }
 #yonetim-kurulu #yonetim-kurulu-detay .content-details .yonetmelik-right {
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+#yonetim-kurulu #yonetim-kurulu-detay .content-details .person {
+  margin-bottom: 2em;
 }
 #yonetim-kurulu #yonetim-kurulu-detay .image {
   background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu.png);
@@ -2311,11 +2606,14 @@
   /* Yatayda ortalamak için */
 }
 #ust-yonetim #ust-yonetim-detay {
-  margin-top: 4em;
+  margin-top: 2em;
   margin-bottom: 7em;
 }
 #ust-yonetim #ust-yonetim-detay .content-details {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+#ust-yonetim #ust-yonetim-detay .content-details .col-lg-9 {
+  padding: 0 !important;
 }
 #ust-yonetim #ust-yonetim-detay .image {
   background-image: url(/assests/img/ust-yonetim/ust-yonetim.jpg);
@@ -2374,6 +2672,956 @@
   height: 120px;
 }
 #ust-yonetim #ust-yonetim-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#tum-duyurular #first-div {
+  margin: 0;
+  padding: 0;
+}
+#tum-duyurular #tum-duyurular-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tum-duyurular #tum-duyurular-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#tum-duyurular #tum-duyurular-detay {
+  padding-top: 50px;
+  font-family: sans-serif;
+  width: 100% !important;
+}
+#tum-duyurular #tum-duyurular-detay .tum-duyurular {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+#tum-duyurular #tum-duyurular-detay .title {
+  transition: 1s;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#tum-duyurular #tum-duyurular-detay .title a {
+  color: #005aa3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  line-height: 1.2;
+  font-weight: 700;
+}
+#tum-duyurular #tum-duyurular-detay .btn-part {
+  align-items: flex-end;
+}
+#tum-duyurular #tum-duyurular-detay .desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#tum-duyurular #tum-duyurular-detay .arama-p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#tum-duyurular #tum-duyurular-detay #pagination {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* Orta hizalama için */
+}
+#tum-duyurular #tum-duyurular-detay #pagination .active > .page-link,
+#tum-duyurular #tum-duyurular-detay #pagination .page-link.active {
+  background-color: #112958;
+  border-color: #112958;
+  color: white;
+}
+#tum-duyurular #tum-duyurular-detay #pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+#tum-duyurular #tum-duyurular-detay #pagination .page-link:focus {
+  box-shadow: none;
+}
+#tum-duyurular #tum-duyurular-detay #mini-pagination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  /* Orta hizalama için */
+}
+#tum-duyurular #tum-duyurular-detay #mini-pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+#tum-duyurular #tum-duyurular-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+.tum-slider-body #tum-slider-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tum-slider-body #tum-slider-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+.tum-slider-body #tum-slider-card {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between !important;
+}
+.tum-slider-body #tum-slider-card img {
+  height: 150px;
+  justify-items: center;
+  align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tum-slider-body #tum-slider-card .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tum-slider-body #tum-slider-card .card {
+  margin-bottom: 20px;
+  /* Alt kısımda boşluk bırakır */
+  box-sizing: border-box;
+  /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+  padding: 0%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.tum-slider-body #tum-slider-card .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0% 2% 1% 2%;
+  color: #005aa3;
+  transition: 1s;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+.tum-slider-body #tum-slider-card .stretched-link {
+  color: #005aa3;
+  text-decoration: none !important;
+}
+.tum-slider-body #tum-slider-card .card-text {
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 0% 2% 0% 2%;
+  height: 150px !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+.tum-slider-body #tum-slider-card .card-footer {
+  border: none;
+  background: white;
+}
+.tum-slider-body #tum-slider-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.tum-slider-body #tum-slider-card .card::before,
+.tum-slider-body #tum-slider-card .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(208, 207, 207, 0.1);
+  content: "";
+  pointer-events: none;
+}
+.tum-slider-body #tum-slider-card .card::before {
+  transform-origin: left top;
+}
+.tum-slider-body #tum-slider-card .card::after {
+  transform-origin: right bottom;
+}
+.tum-slider-body #tum-slider-card .card:hover::before,
+.tum-slider-body #tum-slider-card .card:hover::after,
+.tum-slider-body #tum-slider-card .card:focus::before,
+.tum-slider-body #tum-slider-card .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.tum-slider-body #tum-slider-card .news-bottom a {
+  font-size: 14px;
+  color: #112958;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+.tum-slider-body #tum-slider-card #pagination {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* Orta hizalama için */
+}
+.tum-slider-body #tum-slider-card #pagination .active > .page-link,
+.tum-slider-body #tum-slider-card #pagination .page-link.active {
+  background-color: #112958;
+  border-color: #112958;
+  color: white;
+}
+.tum-slider-body #tum-slider-card #pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #112958;
+}
+.tum-slider-body #tum-slider-card #pagination .page-link:focus {
+  box-shadow: none;
+}
+.tum-slider-body #tum-slider-card #mini-pagination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  /* Orta hizalama için */
+}
+.tum-slider-body #tum-slider-card #mini-pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+.tum-slider-body #tum-slider-card #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#tuseb-baskani-ozgecmisi #first-div {
+  margin: 0;
+  padding: 0;
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-head {
+  text-align: center;
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay {
+  margin-top: 2em;
+  margin-bottom: 7em;
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay .content-details {
+  padding: 5%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay .content-details img {
+  max-width: -webkit-fill-available;
+}
+#tuseb-baskani-ozgecmisi #tuseb-baskani-ozgecmisi-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#akademik-ve-bilimsel-etkinlikler #first-div {
+  margin: 0;
+  padding: 0;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-head {
+  text-align: center;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details {
+  font-family: sans-serif;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details img {
+  border-radius: 0.2em;
+  width: 100%;
+  height: 15rem;
+  justify-items: center;
+  align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card {
+  margin-bottom: 20px;
+  /* Alt kısımda boşluk bırakır */
+  box-sizing: border-box;
+  /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+  padding: 0%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0% 2% 1% 2%;
+  color: #005aa3;
+  transition: 1s;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .stretched-link {
+  color: #005aa3;
+  text-decoration: none !important;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .col-md-8 {
+  align-items: center;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card-text {
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 15px;
+  padding: 0% 2% 0% 2%;
+  height: 150px !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card-footer {
+  padding: 2% 1 2%;
+  border: none;
+  background: white;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card::before,
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(208, 207, 207, 0.1);
+  content: "";
+  pointer-events: none;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card::before {
+  transform-origin: left top;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .card::after {
+  transform-origin: right bottom;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details .news-bottom a {
+  font-size: 0.8rem;
+  color: #112958;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #pagination {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* Orta hizalama için */
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #pagination .active > .page-link,
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #pagination .page-link.active {
+  background-color: #112958;
+  border-color: #112958;
+  color: white;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #112958;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #pagination .page-link:focus {
+  box-shadow: none;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #mini-pagination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  /* Orta hizalama için */
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay .content-details #mini-pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+#akademik-ve-bilimsel-etkinlikler #akademik-ve-bilimsel-etkinlikler-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#roportaj-ve-yayinlar #first-div {
+  margin: 0;
+  padding: 0;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-head {
+  text-align: center;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details {
+  font-family: sans-serif;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details img {
+  border-radius: 0.2em;
+  width: 100%;
+  height: 15rem;
+  justify-items: center;
+  align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card {
+  margin-bottom: 20px;
+  /* Alt kısımda boşluk bırakır */
+  box-sizing: border-box;
+  /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+  padding: 0%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0% 2% 1% 2%;
+  color: #005aa3;
+  transition: 1s;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .stretched-link {
+  color: #005aa3;
+  text-decoration: none !important;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .col-md-8 {
+  align-items: center;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card-text {
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 15px;
+  padding: 0% 2% 0% 2%;
+  height: 150px !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  /* Satır yüksekliği */
+  max-height: 3.6em;
+  /* Yüksekliği iki satırla sınırla */
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card-footer {
+  padding: 2% 1 2%;
+  border: none;
+  background: white;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card::before,
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(208, 207, 207, 0.1);
+  content: "";
+  pointer-events: none;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card::before {
+  transform-origin: left top;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .card::after {
+  transform-origin: right bottom;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details .news-bottom a {
+  font-size: 0.8rem;
+  color: #112958;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #pagination {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* Orta hizalama için */
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #pagination .active > .page-link,
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #pagination .page-link.active {
+  background-color: #112958;
+  border-color: #112958;
+  color: white;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #112958;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #pagination .page-link:focus {
+  box-shadow: none;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #mini-pagination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  /* Orta hizalama için */
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay .content-details #mini-pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+#roportaj-ve-yayinlar #roportaj-ve-yayinlar-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#baskan-fotograflari #first-div {
+  margin: 0;
+  padding: 0;
+}
+#baskan-fotograflari #baskan-fotograflari-head {
+  text-align: center;
+}
+#baskan-fotograflari #baskan-fotograflari-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#baskan-fotograflari #baskan-fotograflari-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#baskan-fotograflari #baskan-fotograflari-detay {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between !important;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card img {
+  justify-items: center;
+  align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card {
+  flex: 0 0 32%;
+  margin-bottom: 20px;
+  /* Alt kısımda boşluk bırakır */
+  box-sizing: border-box;
+  /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+  padding: 0%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card-footer {
+  border: none;
+  background: white;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card::before,
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(208, 207, 207, 0.1);
+  content: "";
+  pointer-events: none;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card::before {
+  transform-origin: left top;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card .card::after {
+  transform-origin: right bottom;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #pagination {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* Orta hizalama için */
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #pagination .active > .page-link,
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #pagination .page-link.active {
+  background-color: #112958;
+  border-color: #112958;
+  color: white;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #112958;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #pagination .page-link:focus {
+  box-shadow: none;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #mini-pagination {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  /* Orta hizalama için */
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #mini-pagination .page-link {
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #112958;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #fotograflar-card #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+#baskan-fotograflari #baskan-fotograflari-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+
+#mali-duyurular #mali-duyurular-head {
+  text-align: center;
+}
+#mali-duyurular #mali-duyurular-head .page-title-image {
+  position: relative;
+  /* Konumlandırmayı ilişkilendirmek için relative */
+  width: 100%;
+  height: 140px;
+  /* Yüksekliği sabitle */
+  overflow: hidden;
+  /* İçerik taşmasını önle */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#mali-duyurular #mali-duyurular-head .page-title {
+  margin: 0;
+  font-size: 26px;
+  /* Başlık boyutunu ayarlayın */
+  font-family: sans-serif;
+  font-weight: 700;
+  /* Kalın yazı tipi */
+  color: white;
+  /* Metin rengi beyaz */
+  height: 100%;
+  /* Overlay'in tam yüksekliğe uymasını sağla */
+  display: flex;
+  align-items: center;
+  /* Dikeyde ortalamak için */
+  justify-content: center;
+  /* Yatayda ortalamak için */
+}
+#mali-duyurular #mali-duyurular-detay .container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#mali-duyurular #mali-duyurular-detay #scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  /* Sayfa başında butonu gizli yap */
+  cursor: pointer;
+}
+#mali-duyurular #mali-duyurular-nisan-2024-detay .container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#mali-duyurular #mali-duyurular-nisan-2024-detay .container .content-details {
+  padding: 5%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+#mali-duyurular #mali-duyurular-nisan-2024-detay .container .content-details a {
+  text-decoration: none;
+  color: #162F58;
+}
+#mali-duyurular #mali-duyurular-nisan-2024-detay .container .content-details a:hover {
+  color: #005aa3;
+}
+#mali-duyurular #mali-duyurular-nisan-2024-detay #scrollTopBtn {
   position: fixed;
   bottom: 20px;
   right: 20px;

@@ -12,10 +12,10 @@ const navbarItems = [
             { 
                 text: "TÜSEB Başkanı", 
                 submenu: [
-                    { text: "Özgeçmiş", link: "#" },
-                    { text: "Akademik ve Bilimsel Etkinlikler", link: "#" },
-                    { text: "Ropörtaj ve Yayınlar", link: "#" },
-                    { text: "Başkan Fotoğrafları", link: "#" },
+                    { text: "Özgeçmiş", link: "/pages/kurumsal/tuseb-baskani/ozgecmis.html" },
+                    { text: "Akademik ve Bilimsel Etkinlikler", link: "/pages/kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler.html" },
+                    { text: "Ropörtaj ve Yayınlar", link: "/pages/kurumsal/tuseb-baskani/roportaj-ve-yayinlar.html" },
+                    { text: "Başkan Fotoğrafları", link: "/pages/kurumsal/tuseb-baskani/baskan-fotograflari.html" },
 
                 ]
             },
@@ -88,13 +88,13 @@ const navbarItems = [
                 ]
             },
             
-            { text: "Mali Duyurular", link: "#" },
+            { text: "Mali Duyurular", link: "/pages/kurumsal/mali-duyurular/mali-duyurular.html" },
             { text: "Faaliyet Raporları", link: "#" },
-            { text: "Stratejik Planlar", link: "#" },
+            { text: "Stratejik Planlar", link: "/pages/kurumsal/stratejik-planlar/stratejik-planlar.html" },
             { 
                 text: "İç Kontrol", 
                 submenu: [
-                    { text: "İç Kontrol Hakkında", link: "#" },
+                    { text: "İç Kontrol Hakkında", link: "/pages/kurumsal/ic-kontrol/ic-kontrol-hakkinda.html" },
                     { text: "Eylem Planları", link: "#" },
                     { text: "Değerlendirme Raporları", link: "#" },
                     { text: "İç Kontrol Dökümanları", link: "#" }
