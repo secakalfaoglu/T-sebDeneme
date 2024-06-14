@@ -24,14 +24,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Yönetim Kurulu</title>
+    <title>Yönetmelikler</title>
 </head>
 
-<body id="yonetim-kurulu">
+<body id="yonetmelikler">
     <div class="container-fluid " id="first-div">
 
 
-        <!-- Topbar -->
+         <!-- Topbar -->
         <div class="navbar topbar d-none d-lg-flex ">
             <div class="container-fluid ">
                 <div class="d-flex" id="topbar-left">
@@ -119,7 +119,7 @@
                     </select>
                     <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
                         aria-controls="staticBackdrop">
-                        <i class="fa-solid fa-bars fa-2xl" style="color: #112958;"></i>
+                        <i class="fa-solid fa-bars fa-2xl"></i>
                     </button>
                     <!-- offcanvas -->
                     <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
@@ -147,7 +147,7 @@
                                 </button>
                             </form>
                             <div id="offcanvas-body-list">
-                                <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <ul class="navbar-nav ">
                                     <li class="nav-item">
                                         <a class="nav-link text-wrap " aria-current="page"
                                             href="/pages/anasayfa/index.html">Ana
@@ -155,10 +155,11 @@
                                     </li>
 
                                     <li class="nav-item dropdown">
-                                        <button class="nav-link dropdown-toggle text-wrap" href="#" role="button"
+                                        <button class="nav-link  text-wrap" href="#" role="button"
                                             data-bs-toggle="dropdown" data-bs-auto-close="outside"
                                             aria-expanded="false">
                                             Kurumsal
+                                            <i class="fa-solid fa-caret-down"></i>
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item text-wrap" href="#">Hakkımızda</a></li>
@@ -506,26 +507,27 @@
         </div>
 
 
-        <!-- yonetim-kurulu header -->
 
-        <section id="yonetim-kurulu-head">
 
-            <div class="page-title-image" style="background-image: url('/assests/img/haberler-bg.png');">
-                <h4 class="page-title">Yönetim Kurulu</h4>
+        <!-- yonetmelik header -->
+
+        <section id="header">
+
+            <div class="page-title-image">
+                <h4 class="page-title">Yönetmelikler</h4>
             </div>
 
         </section>
+        <!-- yonetmelik detay -->
+        <section id="yonetmelikler-detay">
 
-
-
-        <div class="inner-content " id="yonetim-kurulu-detay">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
+                <div class="row  ">
+                    <div class="col-lg-3 col-md-12 ">
                         <div class="d-none d-sm-none d-md-none d-lg-flex aside-menu flex-column-fluid ">
                             <div id="kurumsal-left-menu">
                                 <h4 class="title">Kurumsal</h4>
-                                <ul class="container mt-4" id="mainAccordion">
+                                <ul class="container" id="mainAccordion">
                                     <div class="accordion">
 
                                         <li class="accordion-item">
@@ -540,7 +542,7 @@
 
 
 
-                                            <a href="/pages/yonetim-kurulu/yonetim-kurulu.html"> <i
+                                            <a href="/pages/kurumsal/yonetim-kurulu/yonetim-kurulu.html"> <i
                                                     class="fa-solid fa-caret-right"></i> Yönetim Kurulu</a>
 
 
@@ -549,7 +551,7 @@
 
 
 
-                                            <a href="/pages/ust-yonetim/ust-yonetim.html"><i class="fa-solid fa-caret-right"></i> Üst Yönetim</a>
+                                            <a href="/pages/kurumsal/ust-yonetim/ust-yonetim.html"><i class="fa-solid fa-caret-right"></i> Üst Yönetim</a>
 
 
                                         </li>
@@ -572,7 +574,7 @@
 
 
 
-                                                        <a href="#"><i class="fa-solid fa-caret-right"></i> Özgeçmiş</a>
+                                                        <a href="/pages/kurumsal/tuseb-baskani/ozgecmis.html"><i class="fa-solid fa-caret-right"></i> Özgeçmiş</a>
 
 
                                                     </li>
@@ -580,7 +582,7 @@
 
 
 
-                                                        <a href="#"><i class="fa-solid fa-caret-right"></i> Akademik ve
+                                                        <a href="/pages/kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler.html"><i class="fa-solid fa-caret-right"></i> Akademik ve
                                                             Bilimsel Etkinlikler</a>
 
 
@@ -589,7 +591,7 @@
 
 
 
-                                                        <a href="#"> <i class="fa-solid fa-caret-right"></i> Ropörtaj ve
+                                                        <a href="/pages/kurumsal/tuseb-baskani/roportaj-ve-yayinlar.html"> <i class="fa-solid fa-caret-right"></i> Ropörtaj ve
                                                             Yayınlar</a>
 
 
@@ -598,7 +600,7 @@
 
 
 
-                                                        <a href="#"> <i class="fa-solid fa-caret-right"></i> Başkan
+                                                        <a href="/pages/kurumsal/tuseb-baskani/baskan-fotograflari.html"> <i class="fa-solid fa-caret-right"></i> Başkan
                                                             Fotoğrafları</a>
 
 
@@ -813,7 +815,7 @@
                                                                     </li>
                                                                     <li class="accordion-item">
 
-                                                                        <a href="#"><i
+                                                                        <a href="/pages/kurumsal/teskilat-yapisi/baskan-yardimcisi-1/teknoloji-transfer-ofisi.html"><i
                                                                                 class="fa-solid fa-caret-right"></i>
                                                                             Teknoloji Transfer Ofisi</a>
                                                                     </li>
@@ -914,7 +916,7 @@
 
 
 
-                                                        <a href="/pages/yonetmelikler/yonetmelikler.html"> <i
+                                                        <a href="/pages/kurumsal/mevzuatlar/yonetmelikler/yonetmelikler.html"> <i
                                                                 class="fa-solid fa-caret-right"></i> Yönetmelikler</a>
 
 
@@ -964,7 +966,7 @@
 
 
 
-                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Mali Duyurular</a>
+                                            <a href="/pages/kurumsal/mali-duyurular/mali-duyurular.html"><i class="fa-solid fa-caret-right"></i> Mali Duyurular</a>
 
 
                                         </li>
@@ -982,7 +984,7 @@
 
 
 
-                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Stratejik Planlar</a>
+                                            <a href="/pages/kurumsal/stratejik-planlar/stratejik-planlar.html"><i class="fa-solid fa-caret-right"></i> Stratejik Planlar</a>
 
 
                                         </li>
@@ -1003,8 +1005,16 @@
 
 
 
-                                                        <a href="#"><i class="fa-solid fa-caret-right"></i> İç Kontrol
+                                                        <a href="/pages/kurumsal/ic-kontrol/ic-kontrol-hakkinda.html"><i class="fa-solid fa-caret-right"></i> İç Kontrol
                                                             Hakkında</a>
+
+
+                                                    </li>
+                                                    <li class="accordion-item">
+
+
+
+                                                        <a href="#"><i class="fa-solid fa-caret-right"></i> Eylem Planları</a>
 
 
                                                     </li>
@@ -1026,15 +1036,7 @@
 
 
                                                     </li>
-                                                    <li class="accordion-item">
-
-
-
-                                                        <a href="#"><i class="fa-solid fa-caret-right"></i> Başkan
-                                                            Fotoğrafları</a>
-
-
-                                                    </li>
+                                                    
                                                 </div>
                                             </ul>
                                         </li>
@@ -1084,7 +1086,7 @@
 
 
 
-                                                            <a href="#"> <i class="fa-solid fa-caret-right"></i> TÜSEB
+                                                            <a href="https://dergipark.org.tr/tr/pub/tusebdergisi"> <i class="fa-solid fa-caret-right"></i> TÜSEB
                                                                 Dergisi</a>
 
 
@@ -1094,7 +1096,7 @@
 
 
 
-                                                            <a href="#"> <i class="fa-solid fa-caret-right"></i> TÜSEB
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/yayinlar/dijital-tuseb-strateji-ve-vizyon-calistayi-raporu.pdf"> <i class="fa-solid fa-caret-right"></i> TÜSEB
                                                                 2040 Strateji ve Vizyon Çalıştayı
                                                                 Raporu</a>
 
@@ -1105,7 +1107,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Klinik
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/yayinlar/ka-calistay-raporu.pdf"><i class="fa-solid fa-caret-right"></i> Klinik
                                                                 Araştırmalar Mevcut Durum ve Öneriler
                                                                 Çalıştay Raporu</a>
 
@@ -1116,7 +1118,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Türk
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/yayinlar/ttdk-rapor.pdf"><i class="fa-solid fa-caret-right"></i> Türk
                                                                 Devletleri Teşkilatı 8. Türk Tıp Dünyası
                                                                 Kurultayı Çalıştay Sonuç Raporu</a>
 
@@ -1127,7 +1129,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i>
+                                                            <a href="/pages/kurumsal/yayinlar/analizler-ve-raporlar.html"><i class="fa-solid fa-caret-right"></i>
                                                                 Analizler ve Raporlar</a>
 
 
@@ -1164,7 +1166,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> TÜSEB
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/yayinlar/geleceginpandemileriraporu.pdf"><i class="fa-solid fa-caret-right"></i> TÜSEB
                                                                 Geleceğin Pandemileri Sempozyumu
                                                                 Raporu</a>
 
@@ -1174,7 +1176,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> 9. Türk
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/pdf/ttdk2023.rapor.pdf"><i class="fa-solid fa-caret-right"></i> 9. Türk
                                                                 Tıp Dünyası Kurultayı Raporu</a>
 
 
@@ -1201,20 +1203,20 @@
                                                                 <div class="accordion-body">
                                                                     <li class="accordion-item">
 
-                                                                        <a href="#"><i
+                                                                        <a href="https://files.tuseb.gov.tr/tuseb/files/baskan-kosesi/inbusiness-dergisi-haziran-2022.pdf"><i
                                                                                 class="fa-solid fa-caret-right"></i>
                                                                             Sağlıkta Çözüm Teknolojide</a>
                                                                     </li>
                                                                     <li class="accordion-item">
 
-                                                                        <a href="#"><i
+                                                                        <a href="https://files.tuseb.gov.tr/tuseb/files/baskan-kosesi/sd-dergi.pdf"><i
                                                                                 class="fa-solid fa-caret-right"></i>
                                                                             COVID-19’da ‘fikirden ürüne’ etkin
                                                                             güç: TÜSEB</a>
                                                                     </li>
                                                                     <li class="accordion-item">
 
-                                                                        <a href="#"><i
+                                                                        <a href="https://files.tuseb.gov.tr/tuseb/files/baskan-kosesi/sanayi-gazetesi.pdf"><i
                                                                                 class="fa-solid fa-caret-right"></i>
                                                                             TÜSEB’in Biyoteknoloji Alanındaki
                                                                             AR-GE Faaliyet ve Destekleri</a>
@@ -1229,7 +1231,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Klinik
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/pdf/ek-calistay-raporu.pdf"><i class="fa-solid fa-caret-right"></i> Klinik
                                                                 Araştırmalar-Etik Kurullar Mevcut Durum
                                                                 ve Öneriler Çalıştay Raporu</a>
 
@@ -1239,7 +1241,7 @@
 
 
 
-                                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Klinik
+                                                            <a href="https://files.tuseb.gov.tr/tuseb/files/pdf/ka-sigorta-calistay-raporu.pdf"><i class="fa-solid fa-caret-right"></i> Klinik
                                                                 Araştırmalarda Sigorta Çalıştayı Ara
                                                                 Raporu</a>
 
@@ -1261,7 +1263,7 @@
 
 
 
-                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Yerleşkelerimiz</a>
+                                            <a href="/pages/kurumsal/yerleskelerimiz/yerleskelerimiz.html"><i class="fa-solid fa-caret-right"></i> Yerleşkelerimiz</a>
 
 
                                         </li>
@@ -1274,115 +1276,154 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 ">
-                        <div class="content-details h-100">
-                            <div class="content-full">
-                                <div class="d-flex flex-column h-100">
-                                    <div
-                                        class="row align-self-center justify-content-center text-center yonetmelik-right" >
-                                        <figure class=" image my-3 rounded-circle" width="120px" height="120px">
-                                        </figure>
-                                        <div class="mb-0 text-center">
-                                            <div class="text-dark fw-bold text-hover-primary fs-5">Dr. Fahrettin KOCA
-                                            </div>
-                                            <div class="text-muted fs-6 fw-semibold">Yönetim Kurulu Başkanı</div>
-                                        </div>
+
+
+
+                    <div class="col-lg-9 ">
+                        <div class="d-flex flex-column align-items-stretch  h-100">
+                            <div class="list-group list-group-flush">
+                                <div>
+                                <a target="_blank" alt="turkiye-saglik-enstituleri-baskanligi-odul-yonetmeligi-20221025"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ÖDÜL YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2"
+                                    href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=38957&amp;MevzuatTur=7&amp;MevzuatTertip=5">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ÖDÜL YÖNETMELİĞİ</div>
                                     </div>
-                                    <div
-                                        class="row  align-items-center justify-content-evenly g-4 row-cols-lg-3 row-cols-2 row-cols-md-3">
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class=" image1  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Doç. Dr.
-                                                        Tolga TOLUNAY</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image2  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Hakan EROĞLU</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image3  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Naci GÜNDOĞAN</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image4  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Özcan EREL</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image5  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Teyfik DEMİR</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image6  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Ateş KARA</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col mx-5 person">
-                                            <div class="d-flex flex-column align-items-center justify-content-center">
-                                                <figure class="image7  my-3 rounded-circle" width="120px"
-                                                    height="120px"></figure>
-                                                <div class="mb-0 text-center">
-                                                    <div class="text-dark fw-bold text-hover-primary fs-5">Prof. Dr.
-                                                        Rabia ÇAKIR</div>
-                                                    <div class="text-muted fs-6 fw-semibold">Üye</div>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                </a>
+                                
+                                <hr>
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2"
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
                                     </div>
-                                </div>
+                                </a>
+                                <hr>
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2"
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
+                                    </div>
+                                </a>
+                                <hr>
+                                
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2 "
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
+                                    </div>
+                                </a>
+                                <hr>
+                                
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2"
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
+                                    </div>
+                                </a>
+                                <hr>
+                                
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 px-2"
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
+                                    </div>
+                                </a>
+                                
+                                <hr>
+                                <a target="_blank"
+                                    alt="turkiye-saglik-enstituleri-baskanligi-arastirma-ve-yayin-etigi-kurulu-yonetmeligi-20221010"
+                                    title="TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU YÖNETMELİĞİ"
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-start gap-3 pb-2 px-2"
+                                    href="https://files.tuseb.gov.tr/tuseb/files/kurumsal/mevzuatlar/20221010154132-SdAuzJbfSQkP-.pdf">
+                                    <div class="d-flex position-relative align-items-center"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="far" data-icon="file-pdf"
+                                            class="svg-inline--fa fa-file-pdf fa-fw fa-1x flex-shrink-0 me-3" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z">
+                                            </path>
+                                        </svg>
+                                        <div>TÜRKİYE SAĞLIK ENSTİTÜLERİ BAŞKANLIĞI ARAŞTIRMA VE YAYIN ETİĞİ KURULU
+                                            YÖNETMELİĞİ</div>
+                                    </div>
+                                </a>
+                                
+
+
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <button id="scrollTopBtn" class="btn "><i class="fa-solid fa-circle-up fa-2xl"
-                        style="color: #112958;"></i></button>
             </div>
-        </div>
+            <button id="scrollTopBtn" class="btn "><i class="fa-solid fa-circle-up fa-2xl" ></i></button>
+        </section>
 
-
-
-
-        <!-- Footer 2 - Bootstrap Brain Component -->
+        <!-- footer -->
         <footer id="footer">
 
             <!-- Widgets - Bootstrap Brain Component -->
@@ -1536,7 +1577,7 @@
                                 <i class="fa-brands fa-instagram fa-xl"></i>
                             </a>
                         </li>
-                        
+                       
                         <li>
                             <a href="https://x.com/tusebgovtr">
                                 <i class="fa-brands fa-x-twitter fa-xl"></i>
@@ -1567,15 +1608,15 @@
 
 
 
-    <!-- Preloader -->
-    <script type="text/javascript" src="/assests/js/preloader.js"></script>
-    <!-- scroll up -->
-    <script type="text/javascript" src="/assests/js/scrollButton.js"></script>
+<!-- scroll Button -->
+<script type="text/javascript" src="/assests/js/scrollButton.js" ></script>
 
-    <!-- search -->
-    <script type="text/javascript" src="/assests/js/search.js"></script>
-    <!-- Menu jQuery -->
-    <script type="text/javascript" src="/assests/js/menu.js"></script>
+   <!-- Preloader -->
+<script type="text/javascript" src="/assests/js/preloader.js"></script>
+     <!-- search -->
+     <script type="text/javascript" src="/assests/js/search.js"></script>
+     <!-- Menu jQuery -->
+     <script type="text/javascript" src="/assests/js/menu.js"></script>
 </body>
 
 </html>

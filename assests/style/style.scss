@@ -289,6 +289,12 @@ $bground-color: #112958;
 
     }
 
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 5%;
+        }
+    }
+
     #footer {
         padding: 5%;
 
@@ -366,6 +372,11 @@ $bground-color: #112958;
         }
     }
 
+    #detay{
+        padding: 0 5%;
+    }
+
+    
 
     #haber-detay-body {
         .row {
@@ -454,39 +465,7 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding-top: 20px !important;
-
-            #sonuc-name {
-
-                text-align: center;
-
-                .gradient-hr {
-
-                    background: linear-gradient(to right, white, #112958, white);
-                }
-
-            }
-
-            .title {
-                -webkit-line-clamp: 2 !important;
-            }
-
-
-
-            .desc .arama-p {
-                -webkit-line-clamp: 2 !important;
-            }
-        }
-
-    }
+    
 
     #tum-duyurular {
 
@@ -507,6 +486,12 @@ $bground-color: #112958;
             }
         }
 
+    }
+
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 5%;
+        }
     }
 
     #ust-yonetim {
@@ -602,9 +587,10 @@ $bground-color: #112958;
 
     }
 
-
-
-
+    #detay{
+        padding: 0 5%;
+    }
+    
     .haberler-body {
         #haberler-card {
             padding: 0 5%;
@@ -711,28 +697,7 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 5%;
-
-            .title {
-                -webkit-line-clamp: 2 !important;
-            }
-
-
-
-            .desc .arama-p {
-                -webkit-line-clamp: 2 !important;
-            }
-        }
-
-    }
+   
 
     #tum-duyurular {
 
@@ -811,6 +776,10 @@ $bground-color: #112958;
         #duyurular {
             padding: 2% 5%;
         }
+    }
+
+    #detay{
+        padding: 0 5%;
     }
 
     .haberler-body {
@@ -971,19 +940,6 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 5%;
-        }
-
-    }
-
     #tum-duyurular {
 
 
@@ -993,6 +949,12 @@ $bground-color: #112958;
             padding: 0 5%;
         }
 
+    }
+
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 5%;
+        }
     }
 
     #ust-yonetim {
@@ -1050,6 +1012,9 @@ $bground-color: #112958;
         #duyurular {
             padding: 2% 5%;
         }
+    }
+    #detay{
+        padding: 0 5%;
     }
 
     .haberler-body {
@@ -1205,18 +1170,6 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 5%;
-        }
-
-    }
 
     #tum-duyurular {
 
@@ -1231,6 +1184,12 @@ $bground-color: #112958;
 
     #ust-yonetim {
         .container-fluid {
+            padding: 0 5%;
+        }
+    }
+
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
             padding: 0 5%;
         }
     }
@@ -1286,6 +1245,10 @@ $bground-color: #112958;
             padding: 2% 5%;
         }
     }
+    #detay{
+        padding: 0 5%;
+    }
+   
 
     .haberler-body {
         #haberler-card {
@@ -1321,7 +1284,7 @@ $bground-color: #112958;
         }
     }
 
-   
+
     #akademik-ve-bilimsel-etkinlikler {
         #akademik-ve-bilimsel-etkinlikler-detay {
             padding: 0 5%;
@@ -1426,18 +1389,7 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 5%;
-        }
-
-    }
+    
 
     #tum-duyurular {
 
@@ -1462,6 +1414,11 @@ $bground-color: #112958;
         }
     }
 
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 5%;
+        }
+    }
 
     #footer {
         padding: 0 5%;
@@ -1514,6 +1471,12 @@ $bground-color: #112958;
 
 
     }
+    #detay{
+        padding: 0 15%;
+    }
+
+    
+
 
     .haberler-body {
         #haberler-card {
@@ -1654,19 +1617,7 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 15%;
-        }
-
-    }
-
+    
     #tum-duyurular {
 
 
@@ -1690,6 +1641,11 @@ $bground-color: #112958;
         }
     }
 
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 15%;
+        }
+    }
 
     #footer {
         padding: 0 15%;
@@ -1747,6 +1703,11 @@ $bground-color: #112958;
 
 
     }
+
+    #detay{
+        padding: 0 17%;
+    }
+    
 
     .haberler-body {
         #haberler-card {
@@ -1864,18 +1825,7 @@ $bground-color: #112958;
 
     }
 
-    #arama-sonuc {
-
-
-        #arama-sonuc-head {
-            text-align: center;
-        }
-
-        #arama-sonuc-detay {
-            padding: 0 17%;
-        }
-
-    }
+    
 
     #tum-duyurular {
 
@@ -1886,6 +1836,12 @@ $bground-color: #112958;
             padding: 0 17%;
         }
 
+    }
+
+    #yerleskelerimiz {
+        #yerleskelerimiz-detay {
+            padding: 0 17%;
+        }
     }
 
     .tum-slider-body {
@@ -1911,7 +1867,7 @@ $bground-color: #112958;
     }
 
     #ust-yonetim {
-        .container-fluid {
+        #ust-yonetim-detay {
             padding: 0 17%;
         }
     }
@@ -2356,6 +2312,9 @@ $bground-color: #112958;
 
 
     .list {
+        .list-title {
+            margin-bottom: 2rem;
+        }
 
         .listLi {
             display: flex;
@@ -2479,7 +2438,13 @@ $bground-color: #112958;
     border: none;
     font-size: 14px;
     width: 100%;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
 
+    h4 {
+        font-weight: 700;
+       
+    }
     .accordion {
         --bs-accordion-btn-focus-box-shadow: none;
         list-style: none;
@@ -2487,6 +2452,7 @@ $bground-color: #112958;
 
     #mainAccordion {
         padding: 0;
+        margin-top: 1.5rem;
     }
 
     li {
@@ -2556,15 +2522,64 @@ $bground-color: #112958;
     }
 }
 
+#first-div {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    text-align: center;
+    .page-title-image {
+        position: relative;
+        /* Konumlandırmayı ilişkilendirmek için relative */
+        width: 100%;
+        height: 140px;
+        /* Yüksekliği sabitle */
+        overflow: hidden;
+        /* İçerik taşmasını önle */
+    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('/assests/img/haberler-bg.png');
+    }
+    .page-title {
+        margin: 0;
+        font-size: 26px;
+        /* Başlık boyutunu ayarlayın */
+        font-family: sans-serif;
+        font-weight: 700;
+        /* Kalın yazı tipi */
+        color: white;
+        /* Metin rengi beyaz */
+        height: 100%;
+        /* Overlay'in tam yüksekliğe uymasını sağla */
+        display: flex;
+        align-items: center;
+        /* Dikeyde ortalamak için */
+        justify-content: center;
+        /* Yatayda ortalamak için */
+    }
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    /* Sayfa başında butonu gizli yap */
+    cursor: pointer;
+    color: #112958;
+
+}
+
 
 
 //Ana Sayfa
 .index-body {
+    background-color: #f3faff;
 
-    #first-div {
-        margin: 0;
-        padding: 0;
-    }
+    
 
     @mixin swiper-container {
         width: 100%;
@@ -2596,18 +2611,21 @@ $bground-color: #112958;
             /* 1.1 değeri büyüme oranını belirtir */
         }
 
+       
 
 
 
         .swiper-container {
             @include swiper-container;
-
+             
         }
-
-
+        
+        
+        
         .swiper-slide {
             @include swiper-slide;
             --swiper-navigation-size: 144px;
+            
         }
 
         swiper-slide img {
@@ -2693,8 +2711,8 @@ $bground-color: #112958;
         .card-text {
             font-family: sans-serif;
             font-size: 15px;
-            padding: 0% 2% 0% 2%;
-            height: 80px;
+            padding: 1% 2% 0% 2%;
+            height: 3.6rem;
             display: -webkit-box;
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 3;
@@ -2702,7 +2720,7 @@ $bground-color: #112958;
             text-overflow: ellipsis;
             line-height: 1.2em;
             /* Satır yüksekliği */
-            max-height: calc(1.2em * 3);
+            //max-height: calc(1.2em * 3);
             /* Yüksekliği iki satırla sınırla */
 
 
@@ -2863,606 +2881,21 @@ $bground-color: #112958;
     }
 }
 
-//Haberler Sayfası
-
-.haberler-body {
-    #haberler-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #haberler-card {
-        display: flex;
-        font-family: sans-serif;
-        justify-content: space-between !important;
-
-        img {
-
-            height: 150px;
-            justify-items: center;
-            align-items: center;
-            object-fit: cover;
-
-        }
-
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .card {
-
-            margin-bottom: 20px;
-            /* Alt kısımda boşluk bırakır */
-            box-sizing: border-box;
-            /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
-            padding: 0%;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-
-
-
-        .card-title {
-
-            font-size: 16px;
-            font-weight: 600;
-            padding: 0% 2% 1% 2%;
-            color: #005aa3;
-            transition: 1s;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 3;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            line-height: 1.2em;
-            /* Satır yüksekliği */
-            max-height: calc(1.2em * 3);
-            /* Yüksekliği iki satırla sınırla */
-
-        }
-
-        .stretched-link {
-            color: #005aa3;
-            text-decoration: none !important;
-        }
-
-        .card-text {
-            font-family: sans-serif;
-            font-size: 15px;
-            padding: 0% 2% 0% 2%;
-            height: 150px !important;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 3;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            line-height: 1.2em;
-            /* Satır yüksekliği */
-            max-height: calc(1.2em * 3);
-            /* Yüksekliği iki satırla sınırla */
-
-
-
-        }
-
-        .card-footer {
-            border: none;
-            background: white;
-
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-        }
-
-
-
-        .card::before,
-        .card::after {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            transform: scale3d(0, 0, 1);
-            transition: transform .3s ease-out 0s;
-            background: rgba(208, 207, 207, 0.1);
-            content: '';
-            pointer-events: none;
-        }
-
-        .card::before {
-            transform-origin: left top;
-        }
-
-        .card::after {
-            transform-origin: right bottom;
-        }
-
-        .card:hover::before,
-        .card:hover::after,
-        .card:focus::before,
-        .card:focus::after {
-            transform: scale3d(1, 1, 1);
-        }
-
-
-
-
-        .news-bottom {
-
-            a {
-                font-size: 14px;
-                color: #112958;
-                transition: all .3s ease;
-                text-decoration: none !important;
-                outline: none !important;
-            }
-        }
-
-        #pagination {
-            display: flex;
-            gap: 10px;
-
-            flex-wrap: wrap;
-            padding: 50px;
-            /* Orta hizalama için */
-
-            .active>.page-link,
-            .page-link.active {
-                background-color: #112958;
-                border-color: #112958;
-                color: white;
-
-
-            }
-
-            .page-link {
-                border-radius: 100%;
-                align-items: center;
-                justify-content: center;
-
-                text-align: center;
-                color: #112958;
-
-
-
-            }
-
-            .page-link:focus {
-                box-shadow: none;
-            }
-
-        }
-
-        #mini-pagination {
-
-            display: flex;
-            gap: 5px;
-            margin-bottom: 0;
-            flex-wrap: wrap;
-            padding: 20px 0;
-            justify-content: center;
-
-            /* Orta hizalama için */
-            .page-link {
-                border-radius: 100%;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                text-align: center;
-                color: #112958;
-
-
-
-            }
-
-        }
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
-
-    }
-}
-
-
-
-#haber-detay-body {
-    #first-div {
-        margin: 0;
-        padding: 0;
-    }
-
-    #haberler-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #haber-detay {
-        .container {
-
-            margin-bottom: 50px;
-
-
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        img {
-            max-width: 100%;
-            margin-bottom: 15px;
-        }
-
-        // .list-group-item {
-        //     border: none;
-
-        //     a {
-
-        //         text-decoration-line: none;
-        //         color: #112958;
-        //         font-size: 14px;
-        //         font-family: sans-serif;
-
-        //     }
-
-        //     margin-bottom: 15px;
-
-        //     border-radius: 0;
-        //     transition: all .3s ease;
-        //     text-decoration: none !important;
-        //     outline: none !important;
-        //     //border: solid 1px #112958;
-        //     padding: 0px 0px;
-
-        // }
-
-
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
-
-    }
-}
-
-#yonetmelikler {
-    #yonetmelikler-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #yonetmelikler-detay {
-        .container {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            .list-group  {
-                padding: 5%;
-                box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-                
-            }
-        }
-
-        img {
-            max-width: 100%;
-            margin-bottom: 15px;
-        }
-
-        .list-group-item {
-            border: none;
-
-            a {
-
-                text-decoration-line: none;
-                color: #112958;
-                font-size: 14px;
-                font-family: sans-serif;
-
-            }
-
-            margin-bottom: 15px;
-
-            border-radius: 0;
-            transition: all .3s ease;
-            text-decoration: none !important;
-            outline: none !important;
-            //border: solid 1px #112958;
-            padding: 0px 0px;
-
-        }
-
-
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
-
-    }
-
-}
-
-#ise-alim {
-
-    #ise-alim-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #ise-alim-detay {
-        font-family: sans-serif;
-
-
-
-        .inner-content .content-details .content-full {
-            padding: 40px 45px;
-            font-weight: 500;
-            width: 100%;
-            //border: solid 1px #112958;
-        }
-
-        .inner-content .content-details .content-full table {
-            width: fit-content;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            text-align: center;
-            width: 100%;
-
-        }
-
-        .inner-content .content-details .content-full table th {
-            padding: 10px 15px;
-            background-color: #f5f5f5;
-            border: solid 1px #ddd;
-            font-weight: 600;
-            text-align: center;
-            color: #555555;
-            font-size: 14px;
-        }
-
-        .inner-content .content-details .content-full table td {
-            padding: 10px 15px;
-            border: solid 1px #ddd;
-            color: #555555;
-            font-size: 14px;
-        }
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
-
-    }
-}
-
 #arama-sonuc {
-    #first-div {
-        margin: 0;
-        padding: 0;
-    }
+    
 
-    #arama-sonuc-head {
+   
 
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #arama-sonuc-detay {
+    #detay {
         padding-top: 50px;
         font-family: sans-serif;
         width: 100% !important;
-
+        .sonuc-title{
+            color: #112958;
+            @media (min-width: 576px) and (max-width: 767.98px) {
+               text-align: center;
+            }
+        }
         .gradient-hr {
             height: 1px;
             /* Yükseklik ayarlayabilirsiniz */
@@ -3474,8 +2907,11 @@ $bground-color: #112958;
             /* Kenarlık yok */
             margin: 20px auto;
             /* Kenar boşlukları */
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                background: linear-gradient(to right, white, #112958, white);
+            }
         }
-
+        
         .title {
             a {
                 color: #005aa3;
@@ -3494,11 +2930,16 @@ $bground-color: #112958;
             overflow: hidden;
             text-overflow: ellipsis;
 
+            @media (min-width: 576px) and (max-width: 991.98px){
+                -webkit-line-clamp: 2 !important;
+            }
+
+
         }
 
         .btn-part {
 
-
+            color: #112958;
             align-items: flex-end;
         }
 
@@ -3506,8 +2947,14 @@ $bground-color: #112958;
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
+            gap: 10px;
+            @media (min-width: 576px) and (max-width: 991.98px){
+                -webkit-line-clamp: 2 !important;
+            }
 
-
+        }
+        .list-group-item{
+            padding: 2%;
         }
 
         .arama-p {
@@ -3516,6 +2963,10 @@ $bground-color: #112958;
             -webkit-line-clamp: 3;
             overflow: hidden;
             text-overflow: ellipsis;
+
+            @media (min-width: 768px) and (max-width: 991.98px){
+                -webkit-line-clamp: 2 !important;
+            }
         }
 
         #pagination {
@@ -3577,143 +3028,16 @@ $bground-color: #112958;
 
         }
 
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
+      
     }
-}
-
-#body-404 {
-    #first-div {
-        margin: 0;
-        padding: 0;
-    }
-
-    .error {
-        text-align: center;
-        padding: 110px 0;
-
-
-        font-family: sans-serif;
-
-
-
-    }
-
-    h1 {
-        margin: -10px 0 -30px;
-        font-size: calc(17vw + 40px);
-        opacity: .8;
-
-    }
-
-    p {
-        opacity: .8;
-        font-size: calc(3vw);
-        margin: 28px 38px;
-        font-weight: bold
-    }
-
-
-
-
-}
-
-#body-500 {
-
-    #first-div {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .error {
-        min-height: 75vh;
-        display: flex;
-        justify-content: center;
-        /* Yatayda ortalama */
-        align-items: center;
-        /* Dikeyde ortalama */
-        text-align: center;
-        /* Metni ortalama */
-
-        font-family: sans-serif;
-
-
-
-    }
-
-    h2 {
-
-        font-size: calc(5vw);
-        opacity: .8;
-
-    }
-
-    p {
-        opacity: .8;
-        font-size: calc(3vw);
-
-        font-weight: bold
-    }
-
-
-
-
-
 }
 
 .basin-body {
-    #basin-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
+    
+    
 
     #basin-card {
+        margin-top: 2rem;
         display: flex;
         font-family: sans-serif;
         justify-content: space-between !important;
@@ -3917,375 +3241,85 @@ $bground-color: #112958;
 
         }
 
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
+       
 
     }
 }
 
-#yonetim-kurulu {
+#ise-alim {
+    
 
-    #first-div {
+    
 
-        margin: 0;
-        padding: 0;
+    #ise-alim-detay {
+        font-family: sans-serif;
 
-    }
 
-    #yonetim-kurulu-head {
 
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
+        .inner-content .content-details .content-full {
+            padding: 40px 45px;
+            font-weight: 500;
             width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            //border: solid 1px #112958;
         }
 
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #yonetim-kurulu-detay {
-        margin-top: 2em;
-        margin-bottom: 7em;
-
-        .content-details {
-
-
-            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-
-            .yonetmelik-right {
-                margin-top: 1em;
-                margin-bottom: 3em;
-            }
-
-            .person {
-                margin-bottom: 2em;
-            }
-        }
-
-        .image {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image1 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu1.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image2 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image3 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu3.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image4 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu4.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image5 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu5.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image6 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu6.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image7 {
-            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu7.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
-    }
-}
-
-#ust-yonetim {
-
-    #first-div {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-
-    #ust-yonetim-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
+        .inner-content .content-details .content-full table {
+            width: fit-content;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            text-align: center;
             width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #ust-yonetim-detay {
-        margin-top: 2em;
-        margin-bottom: 7em;
-
-        .content-details {
-
-
-            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-
-            .col-lg-9 {
-                padding: 0 !important;
-            }
 
         }
 
-        .image {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
+        .inner-content .content-details .content-full table th {
+            padding: 10px 15px;
+            background-color: #f5f5f5;
+            border: solid 1px #ddd;
+            font-weight: 600;
+            text-align: center;
+            color: #555555;
+            font-size: 14px;
         }
 
-        .image1 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-1.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
+        .inner-content .content-details .content-full table td {
+            padding: 10px 15px;
+            border: solid 1px #ddd;
+            color: #555555;
+            font-size: 1rem;
         }
 
-        .image2 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-2.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
+        
 
-        .image3 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-3.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image4 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-4.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image6 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-6.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-        .image8 {
-            background-image: url(/assests/img/ust-yonetim/ust-yonetim-8.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center 0%;
-            width: 120px;
-            height: 120px;
-        }
-
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
-            cursor: pointer;
-
-        }
     }
 }
 
 #tum-duyurular {
-    #first-div {
-        margin: 0;
-        padding: 0;
-    }
-
-    #tum-duyurular-head {
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
+    
     #tum-duyurular-detay {
         padding-top: 50px;
         font-family: sans-serif;
         width: 100% !important;
+
+        .gradient-hr {
+            height: 1px;
+            /* Yükseklik ayarlayabilirsiniz */
+            width: 100%;
+            /* Genişlik ekran genişliği kadar */
+            background: linear-gradient(to right, #112958, white);
+            /* İstediğiniz gradient rengi */
+            border: none;
+
+            margin: 0;
+
+        }
 
         .tum-duyurular {
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
         }
 
         .title {
+            margin-top: 1.5rem;
             a {
                 color: #005aa3;
                 text-decoration: none;
@@ -4307,7 +3341,7 @@ $bground-color: #112958;
 
         .btn-part {
 
-
+            color: #112958;
             align-items: flex-end;
         }
 
@@ -4316,7 +3350,7 @@ $bground-color: #112958;
             justify-content: space-between;
             align-items: flex-end;
 
-
+            margin-bottom: 1rem;
         }
 
         .arama-p {
@@ -4398,53 +3432,119 @@ $bground-color: #112958;
     }
 }
 
-.tum-slider-body {
-    #tum-slider-head {
+#body-404 {
+   
 
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+    .error {
+        text-align: center;
+        padding: 110px 0;
 
 
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
+        font-family: sans-serif;
 
 
 
     }
 
-    #tum-slider-card {
+    h1 {
+        margin: -10px 0 -30px;
+        font-size: calc(17vw + 40px);
+        opacity: .8;
+
+    }
+
+    p {
+        opacity: .8;
+        font-size: calc(3vw);
+        margin: 28px 38px;
+        font-weight: bold
+    }
+
+
+
+
+}
+
+#body-500 {
+
+    
+
+    .error {
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        /* Yatayda ortalama */
+        align-items: center;
+        /* Dikeyde ortalama */
+        text-align: center;
+        /* Metni ortalama */
+
+        font-family: sans-serif;
+
+
+
+    }
+
+    h2 {
+
+        font-size: calc(5vw);
+        opacity: .8;
+
+    }
+
+    p {
+        opacity: .8;
+        font-size: calc(3vw);
+
+        font-weight: bold
+    }
+
+
+
+
+
+}
+
+#haber-detay-body {
+   
+
+    #haber-detay {
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-family: sans-serif;
+            text-align: justify;
+        }
+
+
+       
+    }
+}
+
+//Haberler Sayfası
+
+.haberler-body {
+    
+
+    #haberler-card {
         display: flex;
         font-family: sans-serif;
         justify-content: space-between !important;
+        margin-top: 2rem;
+        
 
         img {
 
@@ -4646,76 +3746,178 @@ $bground-color: #112958;
     }
 }
 
-#tuseb-baskani-ozgecmisi {
+#mali-duyurular {
+    
 
-    #first-div {
-
-        margin: 0;
-        padding: 0;
+    #mali-duyurular-detay {
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            
+        }
 
     }
 
-    #tuseb-baskani-ozgecmisi-head {
-        text-align: center;
+    #mali-duyurular-nisan-2024-detay {
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
 
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
+            .content-details {
+                padding: 5%;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .05);
 
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+                a {
+                    text-decoration: none;
+                    color: #162F58;
+
+                    &:hover {
+                        color: #005aa3;
+                    }
+
+                }
+            }
+            p{
+                font-family: sans-serif;
+                text-align: justify;
+                
+            }
         }
 
 
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
+       
     }
 
-    #tuseb-baskani-ozgecmisi-detay {
-        margin-top: 2em;
-        margin-bottom: 7em;
+}
 
-        .content-details {
-            padding: 5%;
 
-            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
 
-            img {
-                max-width: -webkit-fill-available;
+
+#yonetmelikler {
+    
+    #yonetmelikler-detay {
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            .list-group {
+                padding: 2%;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .05);
+
+            }
+        }
+
+        img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .list-group-item {
+            border: none;
+
+            a {
+
+                text-decoration-line: none;
+                color: #112958;
+                font-size: 14px;
+                font-family: sans-serif;
+
             }
 
+            margin-bottom: 15px;
+
+            border-radius: 0;
+            transition: all .3s ease;
+            text-decoration: none !important;
+            outline: none !important;
+            //border: solid 1px #112958;
+            padding: 0px 0px;
 
         }
 
 
 
+       
+
+    }
+
+}
+
+
+
+
+
+#tto-ekibimiz {
+    
+
+    #tto-ekibimiz-detay {
+        margin-top: 2em;
+        margin-bottom: 3em;
+        font-family: sans-serif;
+        width: 100% !important;
+        min-height: 65vh;
+
+
+
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            .content-details {
+                padding: 5%;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .05);
+
+            }
+
+        }
+
+        .image {
+            background-image: url(/assests/img/tto-ekibimiz/image.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image-1 {
+            background-image: url(/assests/img/tto-ekibimiz/image-1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image-2 {
+            background-image: url(/assests/img/tto-ekibimiz/image-2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image-3 {
+            background-image: url(/assests/img/tto-ekibimiz/image-3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image-no-person {
+            background-image: url(/assests/img/tto-ekibimiz/no-person.png);
+            background-repeat: no-repeat;
+            width: 120px;
+            height: 100px;
+            background-size: 150px 150px !important;
+            background-position: center -15px !important;
+            border-radius: 75px !important;
+
+
+        }
 
         #scrollTopBtn {
             position: fixed;
@@ -4731,55 +3933,7 @@ $bground-color: #112958;
 
 #akademik-ve-bilimsel-etkinlikler {
 
-    #first-div {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-    #akademik-ve-bilimsel-etkinlikler-head {
-        text-align: center;
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
+    
 
     #akademik-ve-bilimsel-etkinlikler-detay {
         margin-top: 2em;
@@ -4998,57 +4152,186 @@ $bground-color: #112958;
     }
 }
 
+#baskan-fotograflari {
+
+
+    #baskan-fotograflari-detay {
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        #fotograflar-card {
+            display: flex;
+            font-family: sans-serif;
+            justify-content: space-between !important;
+
+            img {
+
+
+                justify-items: center;
+                align-items: center;
+                object-fit: cover;
+
+            }
+
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .card {
+                flex: 0 0 32%;
+                margin-bottom: 20px;
+                /* Alt kısımda boşluk bırakır */
+                box-sizing: border-box;
+                /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+                padding: 0%;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+
+
+
+
+
+
+
+
+            .card-footer {
+                border: none;
+                background: white;
+
+            }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            }
+
+
+
+            .card::before,
+            .card::after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                transform: scale3d(0, 0, 1);
+                transition: transform .3s ease-out 0s;
+                background: rgba(208, 207, 207, 0.1);
+                content: '';
+                pointer-events: none;
+            }
+
+            .card::before {
+                transform-origin: left top;
+            }
+
+            .card::after {
+                transform-origin: right bottom;
+            }
+
+
+
+
+
+
+
+            #pagination {
+                display: flex;
+                gap: 10px;
+
+                flex-wrap: wrap;
+                padding: 50px;
+                /* Orta hizalama için */
+
+                .active>.page-link,
+                .page-link.active {
+                    background-color: #112958;
+                    border-color: #112958;
+                    color: white;
+
+
+                }
+
+                .page-link {
+                    border-radius: 100%;
+                    align-items: center;
+                    justify-content: center;
+
+                    text-align: center;
+                    color: #112958;
+
+
+
+                }
+
+                .page-link:focus {
+                    box-shadow: none;
+                }
+
+            }
+
+            #mini-pagination {
+
+                display: flex;
+                gap: 5px;
+                margin-bottom: 0;
+                flex-wrap: wrap;
+                padding: 20px 0;
+                justify-content: center;
+
+                /* Orta hizalama için */
+                .page-link {
+                    border-radius: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    text-align: center;
+                    color: #112958;
+
+
+
+                }
+
+            }
+
+            
+
+        }
+
+
+
+
+       
+    }
+}
+
+#tuseb-baskani-ozgecmisi {
+
+
+    #tuseb-baskani-ozgecmisi-detay {
+        margin-top: 2em;
+        margin-bottom: 7em;
+
+        .content-details {
+            padding: 5%;
+
+            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
+
+            img {
+                max-width: -webkit-fill-available;
+            }
+
+
+        }
+    }
+}
+
 #roportaj-ve-yayinlar {
 
-    #first-div {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-    #roportaj-ve-yayinlar-head {
-        text-align: center;
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
+    
 
     #roportaj-ve-yayinlar-detay {
         margin-top: 2em;
@@ -5267,213 +4550,87 @@ $bground-color: #112958;
     }
 }
 
-#baskan-fotograflari {
-
-    #first-div {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-    #baskan-fotograflari-head {
-        text-align: center;
-
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
-            width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
-
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+#ust-yonetim {
 
 
-
-        .page-title {
-            margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
-            align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
-        }
-
-
-
-
-
-    }
-
-    #baskan-fotograflari-detay {
+    #ust-yonetim-detay {
         margin-top: 2em;
-        margin-bottom: 2em;
+        margin-bottom: 7em;
+       
 
-        #fotograflar-card {
-            display: flex;
-            font-family: sans-serif;
-            justify-content: space-between !important;
-
-            img {
+        .content-details {
 
 
-                justify-items: center;
-                align-items: center;
-                object-fit: cover;
+            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
 
-            }
-
-            .card-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-
-            .card {
-                flex: 0 0 32%;
-                margin-bottom: 20px;
-                /* Alt kısımda boşluk bırakır */
-                box-sizing: border-box;
-                /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
-                padding: 0%;
-                transition: 0.3s;
-                cursor: pointer;
-            }
-
-
-
-
-
-
-
-
-            .card-footer {
-                border: none;
-                background: white;
-
-            }
-
-            .card:hover {
-                transform: scale(1.05);
-                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-            }
-
-
-
-            .card::before,
-            .card::after {
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                transform: scale3d(0, 0, 1);
-                transition: transform .3s ease-out 0s;
-                background: rgba(208, 207, 207, 0.1);
-                content: '';
-                pointer-events: none;
-            }
-
-            .card::before {
-                transform-origin: left top;
-            }
-
-            .card::after {
-                transform-origin: right bottom;
-            }
-
-
-
-
-
-
-
-            #pagination {
-                display: flex;
-                gap: 10px;
-
-                flex-wrap: wrap;
-                padding: 50px;
-                /* Orta hizalama için */
-
-                .active>.page-link,
-                .page-link.active {
-                    background-color: #112958;
-                    border-color: #112958;
-                    color: white;
-
-
-                }
-
-                .page-link {
-                    border-radius: 100%;
-                    align-items: center;
-                    justify-content: center;
-
-                    text-align: center;
-                    color: #112958;
-
-
-
-                }
-
-                .page-link:focus {
-                    box-shadow: none;
-                }
-
-            }
-
-            #mini-pagination {
-
-                display: flex;
-                gap: 5px;
-                margin-bottom: 0;
-                flex-wrap: wrap;
-                padding: 20px 0;
-                justify-content: center;
-
-                /* Orta hizalama için */
-                .page-link {
-                    border-radius: 100%;
-                    align-items: center;
-                    justify-content: center;
-                    display: flex;
-                    text-align: center;
-                    color: #112958;
-
-
-
-                }
-
-            }
-
-            #scrollTopBtn {
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                display: none;
-                /* Sayfa başında butonu gizli yap */
-                cursor: pointer;
-
+            .col-lg-9 {
+                padding: 0 !important;
             }
 
         }
 
+        .image {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
 
+        .image1 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image2 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image3 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image4 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image6 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-6.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image8 {
+            background-image: url(/assests/img/ust-yonetim/ust-yonetim-8.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
 
 
         #scrollTopBtn {
@@ -5488,93 +4645,209 @@ $bground-color: #112958;
     }
 }
 
+#yerleskelerimiz {
+    
 
-#mali-duyurular {
-    #mali-duyurular-head {
-        text-align: center;
+    #yerleskelerimiz-detay {
+        margin-top: 2em;
+        margin-bottom: 3em;
+        font-family: sans-serif;
+        width: 100% !important;
+        min-height: 65vh;
 
-        .page-title-image {
-            position: relative;
-            /* Konumlandırmayı ilişkilendirmek için relative */
+        .gradient-hr {
+            height: 1px;
+            /* Yükseklik ayarlayabilirsiniz */
             width: 100%;
-            height: 140px;
-            /* Yüksekliği sabitle */
-            overflow: hidden;
-            /* İçerik taşmasını önle */
+            /* Genişlik ekran genişliği kadar */
+            background: linear-gradient(to right, #112958, white);
+            /* İstediğiniz gradient rengi */
+            border: none;
 
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-
-
-        .page-title {
             margin: 0;
-            font-size: 26px;
-            /* Başlık boyutunu ayarlayın */
-            font-family: sans-serif;
-            font-weight: 700;
-            /* Kalın yazı tipi */
-            color: white;
-            /* Metin rengi beyaz */
-            height: 100%;
-            /* Overlay'in tam yüksekliğe uymasını sağla */
-            display: flex;
+
+        }
+
+        display: flex;
+        font-family: sans-serif;
+        justify-content: space-between !important;
+
+        img {
+
+            min-height: 200px;
+            justify-items: center;
             align-items: center;
-            /* Dikeyde ortalamak için */
-            justify-content: center;
-            /* Yatayda ortalamak için */
+            object-fit: cover;
+            border-radius: 3px;
+
         }
 
+        .card {
 
-
-
-
-    }
-
-    #mali-duyurular-detay {
-        .container {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            
-        }
-
-   
-
-
-
-        #scrollTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            /* Sayfa başında butonu gizli yap */
+            margin-bottom: 20px;
+            /* Alt kısımda boşluk bırakır */
+            box-sizing: border-box;
+            /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+            padding: 0%;
+            transition: 0.3s;
             cursor: pointer;
-
         }
 
-    }
-    #mali-duyurular-nisan-2024-detay{
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card::before,
+        .card::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: scale3d(0, 0, 1);
+            transition: transform .3s ease-out 0s;
+            background: rgba(208, 207, 207, 0.1);
+            content: '';
+            pointer-events: none;
+        }
+
+        .card::before {
+            transform-origin: left top;
+        }
+
+        .card::after {
+            transform-origin: right bottom;
+        }
+
+        .card:hover::before,
+        .card:hover::after,
+        .card:focus::before,
+        .card:focus::after {
+            transform: scale3d(1, 1, 1);
+        }
+
         .container {
             margin-top: 2rem;
             margin-bottom: 2rem;
+
             .content-details {
                 padding: 5%;
                 box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-                a{
+
+                a {
                     text-decoration: none;
                     color: #162F58;
-                    &:hover{
+
+                    &:hover {
                         color: #005aa3;
                     }
 
                 }
             }
-            
+
         }
 
         
+    }
+}
+
+#yonetim-kurulu {
+
+   
+
+    #yonetim-kurulu-detay {
+        margin-top: 2em;
+        margin-bottom: 7em;
+
+        .content-details {
+
+
+            box-shadow: 0 0 30px rgba(0, 0, 0, .05);
+
+            .yonetmelik-right {
+                margin-top: 1em;
+                margin-bottom: 3em;
+            }
+
+            .person {
+                margin-bottom: 2em;
+            }
+        }
+
+        .image {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image1 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image2 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image3 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image4 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image5 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu5.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image6 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu6.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .image7 {
+            background-image: url(/assests/img/yonetim-kurulu/yonetim-kurulu7.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 0%;
+            width: 120px;
+            height: 120px;
+        }
+
+
         #scrollTopBtn {
             position: fixed;
             bottom: 20px;
@@ -5585,8 +4858,222 @@ $bground-color: #112958;
 
         }
     }
-
 }
+
+.tum-slider-body {
+   
+
+
+    #tum-slider-card {
+        display: flex;
+        font-family: sans-serif;
+        justify-content: space-between !important;
+
+        img {
+
+            height: 150px;
+            justify-items: center;
+            align-items: center;
+            object-fit: cover;
+
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+
+            margin-bottom: 20px;
+            /* Alt kısımda boşluk bırakır */
+            box-sizing: border-box;
+            /* Kenar boşluklarını ve dolguları toplam genişliğe dahil eder */
+            padding: 0%;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+
+
+
+        .card-title {
+
+            font-size: 16px;
+            font-weight: 600;
+            padding: 0% 2% 1% 2%;
+            color: #005aa3;
+            transition: 1s;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.2em;
+            /* Satır yüksekliği */
+            max-height: calc(1.2em * 3);
+            /* Yüksekliği iki satırla sınırla */
+
+        }
+
+        .stretched-link {
+            color: #005aa3;
+            text-decoration: none !important;
+        }
+
+        .card-text {
+            font-family: sans-serif;
+            font-size: 15px;
+            padding: 0% 2% 0% 2%;
+            height: 150px !important;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.2em;
+            /* Satır yüksekliği */
+            max-height: calc(1.2em * 3);
+            /* Yüksekliği iki satırla sınırla */
+
+
+
+        }
+
+        .card-footer {
+            border: none;
+            background: white;
+
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+
+
+        .card::before,
+        .card::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: scale3d(0, 0, 1);
+            transition: transform .3s ease-out 0s;
+            background: rgba(208, 207, 207, 0.1);
+            content: '';
+            pointer-events: none;
+        }
+
+        .card::before {
+            transform-origin: left top;
+        }
+
+        .card::after {
+            transform-origin: right bottom;
+        }
+
+        .card:hover::before,
+        .card:hover::after,
+        .card:focus::before,
+        .card:focus::after {
+            transform: scale3d(1, 1, 1);
+        }
+
+
+
+
+        .news-bottom {
+
+            a {
+                font-size: 14px;
+                color: #112958;
+                transition: all .3s ease;
+                text-decoration: none !important;
+                outline: none !important;
+            }
+        }
+
+        #pagination {
+            display: flex;
+            gap: 10px;
+
+            flex-wrap: wrap;
+            padding: 50px;
+            /* Orta hizalama için */
+
+            .active>.page-link,
+            .page-link.active {
+                background-color: #112958;
+                border-color: #112958;
+                color: white;
+
+
+            }
+
+            .page-link {
+                border-radius: 100%;
+                align-items: center;
+                justify-content: center;
+
+                text-align: center;
+                color: #112958;
+
+
+
+            }
+
+            .page-link:focus {
+                box-shadow: none;
+            }
+
+        }
+
+        #mini-pagination {
+
+            display: flex;
+            gap: 5px;
+            margin-bottom: 0;
+            flex-wrap: wrap;
+            padding: 20px 0;
+            justify-content: center;
+
+            /* Orta hizalama için */
+            .page-link {
+                border-radius: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+                color: #112958;
+
+
+
+            }
+
+        }
+
+       
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

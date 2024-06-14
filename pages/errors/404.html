@@ -119,7 +119,7 @@
                     </select>
                     <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
                         aria-controls="staticBackdrop">
-                        <i class="fa-solid fa-bars fa-2xl" style="color: #112958;"></i>
+                        <i class="fa-solid fa-bars fa-2xl"></i>
                     </button>
                     <!-- offcanvas -->
                     <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
@@ -147,7 +147,7 @@
                                 </button>
                             </form>
                             <div id="offcanvas-body-list">
-                                <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <ul class="navbar-nav ">
                                     <li class="nav-item">
                                         <a class="nav-link text-wrap " aria-current="page"
                                             href="/pages/anasayfa/index.html">Ana
@@ -155,10 +155,11 @@
                                     </li>
 
                                     <li class="nav-item dropdown">
-                                        <button class="nav-link dropdown-toggle text-wrap" href="#" role="button"
+                                        <button class="nav-link  text-wrap" href="#" role="button"
                                             data-bs-toggle="dropdown" data-bs-auto-close="outside"
                                             aria-expanded="false">
                                             Kurumsal
+                                            <i class="fa-solid fa-caret-down"></i>
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item text-wrap" href="#">Hakkımızda</a></li>
@@ -501,6 +502,10 @@
 
         </div>
 
+        <div id="preloader">
+
+        </div>
+
 
 
 
@@ -516,13 +521,17 @@
             <h1>404</h1>
             <p>Üzgünüz. Aradığınız öğe bulunamadı.</p>
 
+            <button id="scrollTopBtn" class="btn "><i class="fa-solid fa-circle-up fa-2xl"
+                ></i></button>
+
         </div>
 
 
 
 
-        <!-- Footer 2 - Bootstrap Brain Component -->
-        <footer id="footer">
+         <!-- footer -->
+
+         <footer id="footer">
 
             <!-- Widgets - Bootstrap Brain Component -->
 
@@ -530,12 +539,12 @@
 
             <div class="container">
 
-                <div class="row gy-4 gy-lg-0 justify-content-between border-bottom border-dark-subtle">
+                <div class="row justify-content-between border-bottom border-dark-subtle">
 
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
 
                         <div class="list">
-                            <h4 class="list-title mb-4">ENSTİTÜLER</h4>
+                            <h4 class="list-title ">ENSTİTÜLER</h4>
                             <ul class="list-unstyled">
                                 <li class="listLi">
                                     <a href="#!" class="listA  ">Türkiye Anne Çocuk ve Ergen
@@ -572,7 +581,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4 ">HİZMETLER</h4>
+                            <h4 class="list-title  ">HİZMETLER</h4>
                             <ul class="list-unstyled">
                                 <li class="listLi">
                                     <a href="#!" class="listA ">CİMER</a>
@@ -587,7 +596,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4">ULUSLARARASI KURULUŞLAR</h4>
+                            <h4 class="list-title ">ULUSLARARASI KURULUŞLAR</h4>
 
                             <ul class="list-unstyled">
                                 <li class="listLi">
@@ -615,7 +624,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4">İLETİŞİM</h4>
+                            <h4 class="list-title ">İLETİŞİM</h4>
                             <ul class="list-unstyled flex-row">
 
                                 <li class="listLi ">
@@ -675,7 +684,7 @@
                                 <i class="fa-brands fa-instagram fa-xl"></i>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="https://x.com/tusebgovtr">
                                 <i class="fa-brands fa-x-twitter fa-xl"></i>
@@ -707,8 +716,10 @@
 
 
 
-
-
+<!-- scroll Button -->
+<script type="text/javascript" src="/assests/js/scrollButton.js"></script>
+<!-- Preloader -->
+<script type="text/javascript" src="/assests/js/preloader.js"></script>
     <!-- search -->
     <script type="text/javascript" src="/assests/js/search.js"></script>
     <!-- Menu jQuery -->

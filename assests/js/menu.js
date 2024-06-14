@@ -2,13 +2,14 @@
 const navbarItems = [
     { 
         text: "Anasayfa", 
-        link: "/pages/anasayfa/index.html" 
+        link: "index.html" 
     },
     { 
         text: "Kurumsal", 
         submenu: [
             { text: "Hakkımızda", link: "#" },
-            { text: "Yönetim Kurulu", link: "/pages/yonetim-kurulu/yonetim-kurulu.html" },
+            { text: "Yönetim Kurulu", link: "/pages/kurumsal/yonetim-kurulu/yonetim-kurulu.html" },
+            { text: "Üst Yönetim", link: "/pages/kurumsal/ust-yonetim/ust-yonetim.html" },
             { 
                 text: "TÜSEB Başkanı", 
                 submenu: [
@@ -55,7 +56,7 @@ const navbarItems = [
                         text: "Başkan Yardımcısı 1", 
                         submenu: [
                             { text: "Sağlık Endüstrileri Yerlileştirme ve Proje Geliştirme Daire Başkanlığı", link: "#" },
-                            { text: "Teknoloji Transfer Ofisi", link: "#" }
+                            { text: "Teknoloji Transfer Ofisi", link: "/pages/kurumsal/teskilat-yapisi/baskan-yardimcisi-1/teknoloji-transfer-ofisi.html" }
         
                         ]
                     },
@@ -79,7 +80,7 @@ const navbarItems = [
                 submenu: [
                     { text: "Kanunlar", link: "#" },
                     { text: "Cumhurbaşkanlığı Kararnameleri", link: "#" },
-                    { text: "Yönetmelikler", link: "/pages/yonetmelikler/yonetmelikler.html" },
+                    { text: "Yönetmelikler", link: "/pages/kurumsal/mevzuatlar/yonetmelikler/yonetmelikler.html" },
                     { text: "Usul ve Esaslar", link: "#" },
                     { text: "Genelgeler", link: "#" },
                     { text: "Yönergeler", link: "#" },
@@ -111,7 +112,7 @@ const navbarItems = [
                     { text: "TÜSEB 2040 Strateji ve Vizyon Çalıştayı Raporu", link: "#" },
                     { text: "Klinik Araştırmalar Mevcut Durum ve Öneriler Çalıştay Raporu", link: "#" },
                     { text: "Türk Devletleri Teşkilatı 8. Türk Tıp Dünyası Kurultayı Çalıştay Raporu", link: "#" },
-                    { text: "Analizler ve Raporlar", link: "#" },
+                    { text: "Analizler ve Raporlar", link: "/pages/kurumsal/yayinlar/analizler-ve-raporlar.html" },
                     { text: "Kitaplar ve Kitap Bölümleri", link: "#" },
                     { text: "Rehberler", link: "#" },
                     { text: "Röportajlar", link: "#" },
@@ -132,7 +133,7 @@ const navbarItems = [
                 ]
             },
             { text: "Teşkilat Şeması", link: "#" },
-            { text: "Yerleşkelerimiz", link: "#" }
+            { text: "Yerleşkelerimiz", link: "/pages/kurumsal/yerleskelerimiz/yerleskelerimiz.html" }
 
         ]
     },
@@ -169,8 +170,8 @@ const navbarItems = [
             { text: "Fikri ve Sınai Mülkiyet Hakları Birimi", link: "#" },
             { text: "Klinik Araştırmalar Koordinasyon Birimi", link: "#" },
             { text: "Teknoloji Dönüşümü Eğitim Birimi", link: "#" },
-            { text: "Ekibimiz", link: "#" },
-            { text: "TTO İletişim", link: "#" }
+            { text: "Ekibimiz", link: "/pages/kurumsal/teskilat-yapisi/baskan-yardimcisi-1/teknoloji-transfer-ofisi.html" },
+            { text: "TTO İletişim", link: "/pages/tuseb-tto/tto-iletisim.html" }
             
 
         ]

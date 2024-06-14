@@ -28,7 +28,7 @@
 </head>
 
 <body class="basin-body">
-    <div class="container-fluid " style=" padding: 0; margin: 0;">
+    <div class="container-fluid " id="first-div">
 
 
         <!-- Topbar -->
@@ -119,7 +119,7 @@
                     </select>
                     <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
                         aria-controls="staticBackdrop">
-                        <i class="fa-solid fa-bars fa-2xl" style="color: #112958;"></i>
+                        <i class="fa-solid fa-bars fa-2xl"></i>
                     </button>
                     <!-- offcanvas -->
                     <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
@@ -147,7 +147,7 @@
                                 </button>
                             </form>
                             <div id="offcanvas-body-list">
-                                <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <ul class="navbar-nav ">
                                     <li class="nav-item">
                                         <a class="nav-link text-wrap " aria-current="page"
                                             href="/pages/anasayfa/index.html">Ana
@@ -155,10 +155,11 @@
                                     </li>
 
                                     <li class="nav-item dropdown">
-                                        <button class="nav-link dropdown-toggle text-wrap" href="#" role="button"
+                                        <button class="nav-link  text-wrap" href="#" role="button"
                                             data-bs-toggle="dropdown" data-bs-auto-close="outside"
                                             aria-expanded="false">
                                             Kurumsal
+                                            <i class="fa-solid fa-caret-down"></i>
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item text-wrap" href="#">Hakkımızda</a></li>
@@ -502,7 +503,7 @@
         </div>
 
         <div id="preloader">
-            
+
         </div>
 
 
@@ -510,9 +511,9 @@
 
         <!-- basin header -->
 
-        <section id="basin-head">
+        <section id="header">
 
-            <div class="page-title-image" style="background-image: url('/assests/img/haberler-bg.png');">
+            <div class="page-title-image" >
                 <h4 class="page-title">Basında TÜSEB</h4>
             </div>
 
@@ -522,12 +523,15 @@
         <section id="basin-card">
 
 
-            <div class="container mt-4">
+            <div class="container ">
                 <div class="card-container d-flex">
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -537,18 +541,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -558,18 +566,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -579,18 +591,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -600,18 +616,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -621,18 +641,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -642,18 +666,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -663,18 +691,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -684,18 +716,22 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="/assests/img/card1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus asperiores repudiandae.</p>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                                ipsam cupiditate illo. Laboriosam aliquam quas repellendus blanditiis cumque consequatur
+                                perferendis, distinctio veritatis tenetur beatae quaerat dolorem ratione voluptatibus
+                                asperiores repudiandae.</p>
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div>
@@ -705,21 +741,23 @@
                                 </small>
                             </div>
                             <div class="news-bottom">
-                                
+
                                 <i class="fa-solid fa-circle fa-xs"></i>
-                                <a class="stretched-link" href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
+                                <a class="stretched-link"
+                                    href="https://www.haberler.com/guncel/sabiotek-klinik-arastirmalar-calistayi-istanbul-da-15979580-haberi/">
                                     Haberler.com
-                                 </a>
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                   
 
-                   
+
+
+
                     <!-- Diğer kartlar buraya eklenir -->
                 </div>
-                
+
 
                 <div>
                     <!-- Sayfalama -->
@@ -730,18 +768,19 @@
                     <!-- Sayfalama Mini -->
                     <ul class="pagination  d-lg-none d-md-none" id="mini-pagination">
                         <!-- Sayfalama bağlantıları buraya dinamik olarak eklenecek -->
-                        
+
                     </ul>
                 </div>
             </div>
 
-            <button id="scrollTopBtn" class="btn "><i class="fa-solid fa-circle-up fa-2xl" style="color: #112958;" ></i></button>
+            <button id="scrollTopBtn" class="btn "><i class="fa-solid fa-circle-up fa-2xl"
+                   ></i></button>
 
 
         </section>
-       
+
         <!-- footer -->
-        
+
         <footer id="footer">
 
             <!-- Widgets - Bootstrap Brain Component -->
@@ -750,12 +789,12 @@
 
             <div class="container">
 
-                <div class="row gy-4 gy-lg-0 justify-content-between border-bottom border-dark-subtle">
+                <div class="row justify-content-between border-bottom border-dark-subtle">
 
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
 
                         <div class="list">
-                            <h4 class="list-title mb-4">ENSTİTÜLER</h4>
+                            <h4 class="list-title ">ENSTİTÜLER</h4>
                             <ul class="list-unstyled">
                                 <li class="listLi">
                                     <a href="#!" class="listA  ">Türkiye Anne Çocuk ve Ergen
@@ -792,7 +831,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4 ">HİZMETLER</h4>
+                            <h4 class="list-title  ">HİZMETLER</h4>
                             <ul class="list-unstyled">
                                 <li class="listLi">
                                     <a href="#!" class="listA ">CİMER</a>
@@ -807,7 +846,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4">ULUSLARARASI KURULUŞLAR</h4>
+                            <h4 class="list-title ">ULUSLARARASI KURULUŞLAR</h4>
 
                             <ul class="list-unstyled">
                                 <li class="listLi">
@@ -835,7 +874,7 @@
                     </div>
                     <div class="footer-top col-lg-3 col-md-12 col-sm-12 ">
                         <div class="list">
-                            <h4 class="list-title mb-4">İLETİŞİM</h4>
+                            <h4 class="list-title ">İLETİŞİM</h4>
                             <ul class="list-unstyled flex-row">
 
                                 <li class="listLi ">
@@ -895,7 +934,7 @@
                                 <i class="fa-brands fa-instagram fa-xl"></i>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="https://x.com/tusebgovtr">
                                 <i class="fa-brands fa-x-twitter fa-xl"></i>
@@ -920,18 +959,19 @@
 
 
         </footer>
+
     </div>
-2E769B
+
     <!-- card pagination -->
     <script type="text/javascript" src="/assests/js/haberler-card-pagination.js"></script>
 
-    
+
     <!-- Preloader -->
     <script type="text/javascript" src="/assests/js/preloader.js"></script>
 
     <!-- scroll Button -->
-    <script type="text/javascript" src="/assests/js/scrollButton.js" ></script>
-     <!-- search -->
+    <script type="text/javascript" src="/assests/js/scrollButton.js"></script>
+    <!-- search -->
     <script type="text/javascript" src="/assests/js/search.js"></script>
     <!-- Menu jQuery -->
     <script type="text/javascript" src="/assests/js/menu.js"></script>
